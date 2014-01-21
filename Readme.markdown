@@ -10,7 +10,7 @@ Docker image based on the [official image][official], using local storage.
 Assuming you wanted to store registry files at `/var/local/registry` on the host
 machine:
 
-    docker \
+    docker run \
         -p 5000 \
         -v /var/local/registry:/registry \
         -e 'SETTINGS_FLAVOR=prod' \
