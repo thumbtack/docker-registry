@@ -1,0 +1,6 @@
+common:
+  secret_key: REPLACEME
+
+prod:
+  storage: local
+  storage_path: /registry
