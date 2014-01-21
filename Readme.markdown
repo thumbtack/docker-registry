@@ -13,7 +13,7 @@ machine:
     docker \
         -p 5000 \
         -v /var/local/registry:/registry \
-        -e 'SETTINGS_FLAVOR=prod'
+        -e 'SETTINGS_FLAVOR=prod' \
         thumbtack/docker-registry
 
 (The registry in this image will always store its assets at `/registry`.)
